@@ -2,7 +2,11 @@
 
 A deployed-first SLA monitoring workspace that turns messy, multi-agent CSV health checks into an auditable availability record. The interface is designed for two readers at once: on-call engineers need to find failures quickly, while billing and support teams need to understand why the resulting percentage can be trusted.
 
-> Deployment status: implementation is complete; the production URL will be added after the Vercel account and Neon integration are connected.
+> ## Live Demo
+
+🌐 https://earthre-sla-monitor.vercel.app/
+
+The application is deployed on Vercel with Neon PostgreSQL as the persistent database.
 
 ## Architecture
 
